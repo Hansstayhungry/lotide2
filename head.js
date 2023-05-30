@@ -1,7 +1,7 @@
 // Function implementation
 const head = function(arr) {
   return arr[0];
-}
+};
 
 
 const assertEqual = function(actual, expected) {
