@@ -10,6 +10,4 @@ const assertEqual = function(actual, expected) {
   console.log(`${result} ${actual} !== ${expected}`);
 };
 
-// //TEST
-// assertEqual(30, 30);
-// assertEqual("Light", "light");
+module.exports = assertEqual;
